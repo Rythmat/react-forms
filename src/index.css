@@ -1,3 +1,9 @@
 body {
-  background-color: antiquewhite;
+  margin: 0;
+  height: 100vh;
+  background-color: ivory;
+  color:#424242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,49 @@
+.envelope {
+  display: flex;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  margin-right: 10vw;
+}
+
+form input {
+  background-color: silver;
+  color:#424242;
+  text-align: end;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+button {
+  margin-left: 2vw;
+  background-color: silver;
+  color:#424242;
+
+}
+
+form > button {
+  width: 100%;
+  background-color: silver;
+  color:#424242;
+}
+
+.error {
+  color: red;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.success {
+  color: green;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
